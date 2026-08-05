@@ -1,0 +1,421 @@
+{
+  "agricultural-products": {
+    "label": "AGRICULTURAL PRODUCTS",
+    "children": {
+      "coffee": {
+        "label": "Coffee",
+        "articles": [
+          {
+            "id": 1,
+            "title": "The Ethiopian Coffee Industry",
+            "date": "2024-01-18",
+            "category": "COFFEE",
+            "description": "A deep dive into Ethiopia's coffee supply chain: from traditional production to the challenges of valorization and export to international markets.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "7 min read",
+            "body": "Ethiopia is the historical birthplace of Coffea arabica. It is in the southwestern highlands, in the province of Kaffa, that the first coffee plants were discovered and consumed more than a thousand years ago. From this single region, the plant travelled across the Red Sea to Yemen and, from there, to the rest of the world. Today, coffee remains at the very heart of the Ethiopian economy, representing close to 30 percent of the country's export earnings and directly supporting the livelihoods of an estimated fifteen million people.\n\nEthiopian coffee is not merely a commodity; it is a living cultural heritage transmitted from one generation to the next.\n\nThe overwhelming majority of Ethiopian coffee growers are smallholders who cultivate their trees on plots of less than two hectares. Production methods remain largely traditional, with meticulous attention paid to the ripeness of the cherries and to natural drying on raised beds. This artisanal approach, far from being a weakness, is precisely what gives Ethiopian coffee its extraordinary aromatic complexity and its reputation among specialty roasters.\n\nAlongside these traditional practices, a growing number of washing stations and cooperatives are adopting modern wet-processing techniques, controlled fermentation, and moisture monitoring. The coexistence of ancestral know-how and contemporary quality control defines the current moment of the Ethiopian coffee sector."
+          },
+          {
+            "id": 2,
+            "title": "Ethiopia and the Valorization of Coffee: The Varietal Abundance and the Sensory Architecture of Terroir",
+            "date": "2024-10-15",
+            "category": "COFFEE",
+            "description": "The Paradox of Abundance: how Ethiopia possesses 6,000 to 10,000 coffee varieties that remain an undifferentiated mass in global markets.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "8 min read",
+            "body": "Ethiopia possesses an estimated 6,000 to 10,000 distinct varieties of Coffea arabica L., representing approximately 95 percent of the global genetic pool of the species. The southwestern forests — Kaffa, Bench-Maji, Illubabor — constitute the natural cradle from which all arabica coffee cultivated worldwide descends. Yet this extraordinary biological wealth functions paradoxically as an undifferentiated mass in the global market.\n\nThe problem is not the absence of diversity — it is the absence of a mechanism to translate genetic specificity into commercial premium. In the current supply chain, the overwhelming majority of Ethiopian coffee is commercialized under broad regional denominations — Yirgacheffe, Sidamo, Guji, Limu — without granular distinction of the specific variety within the lot.\n\nA structured varietal referential seeks to mechanically invert this flow. By establishing a premium price and measurable, verifiable criteria at the source — documented genetic variety, altitude, post-harvest method — value originates at the point of production rather than at the point of consumption."
+          },
+          {
+            "id": 3,
+            "title": "Ethiopia's US$6 Billion Coffee Ambition: Charting the Path from Record to Target",
+            "date": "2026-07-04",
+            "category": "COFFEE",
+            "description": "Ethiopia has set an ambitious target of US$6 billion in annual coffee export earnings by 2031, following a historic season of nearly US$3 billion.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "7 min read",
+            "body": "Ethiopia has recorded one of the strongest performances in its coffee export history, generating nearly US$3 billion in foreign exchange from coffee in the 2025/26 fiscal year. This figure represents the highest coffee export revenue ever achieved by the country and establishes a new baseline for the sector's ambitions.\n\nThe achievement reflects sustained growth in both volume and unit value. Export volumes surpassed 300,000 tonnes for the first time, while average prices benefited from increased demand for Ethiopian specialty lots in premium markets.\n\nBuilding on this momentum, the government has announced a target of US$6 billion in annual coffee export earnings by 2031. Reaching this milestone will require more than simply increasing production. The strategy includes: raising farm productivity through improved agronomic practices, modernizing production systems across the value chain, strengthening quality standards and grading protocols, increasing the share of value-added coffee exports, and expanding access to international markets."
+          },
+          {
+            "id": 4,
+            "title": "Germany's Coffee Revolution: Why Origin Traceability is Reshaping Europe's Largest Coffee Market",
+            "date": "2026-05-18",
+            "category": "COFFEE",
+            "description": "Germany's coffee market is shifting from commodity consumption toward specialty coffee, subscription models, and origin-focused consumption.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "7 min read",
+            "body": "Germany's coffee market is undergoing a transformation that extends far beyond traditional commodity trading. A recent market analysis highlights a major shift toward specialty coffee, subscription-based purchasing, origin-focused consumption, and premium coffee experiences. The German market, the largest in Europe by volume, is increasingly behaving like a craft beverage market rather than a commodity procurement channel.\n\nSubscription-based coffee platforms now represent 25–30 percent of market value, a channel that rewards suppliers who can offer consistent quality, transparent sourcing, and compelling origin narratives. What is changing is not simply demand volume. Consumer behavior is shifting toward traceability, roast transparency, and curated coffee experiences.\n\nFor Ethiopia, this is a structural opportunity. The next competitive advantage will come from combining high-quality origin coffee with traceable supply chains, market intelligence, and direct international market integration."
+          }
+        ]
+      },
+      "sesame-oilseeds": {
+        "label": "Sesame and Oilseeds",
+        "articles": [
+          {
+            "id": 5,
+            "title": "Ethiopia and the Global Sesame Market: The Structural Challenge of Value Addition",
+            "date": "2024-12-05",
+            "category": "SESAME AND OILSEEDS",
+            "description": "Ethiopia occupies a distinctive position in the global sesame market yet faces the structural challenge of value addition rather than raw seed export.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "9 min read",
+            "body": "Ethiopia occupies a distinctive position in the global sesame market. The worldwide reputation of Humera sesame is well established as one of the country's most desirable export products. Yet despite this strong position and significant growth in the sector, the structural problem remains the capture of value through value addition rather than raw seed export.\n\nIn the current system, Ethiopia exports raw sesame seeds with minimal processing occurring within Ethiopian territory. The bulk of value addition — processing into tahini, oil extraction — occurs outside the country, primarily in Turkey, Europe, and North America.\n\nA structured strategy of vertical integration from seed to finished product would allow Ethiopia to capture a significantly larger share of the value chain. This requires investment in processing infrastructure, quality control systems, and market access for value-added products."
+          }
+        ]
+      },
+      "fruits-vegetables": {
+        "label": "Fruits and Vegetables",
+        "articles": [
+          {
+            "id": 6,
+            "title": "Ethiopia's Emerging Fruit and Vegetable Export Sector",
+            "date": "2026-01-15",
+            "category": "FRUITS AND VEGETABLES",
+            "description": "Ethiopia's horticulture sector is growing at 15% annually, driven by demand for avocados, mangoes, and cut flowers.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "5 min read",
+            "body": "Ethiopia's fruit and vegetable sector has emerged as one of the fastest-growing segments of agricultural exports. Avocado exports grew 240% between 2020 and 2025, reaching 45,000 tons annually. The main producing regions are SNNPR (avocado, mango, banana), Oromia (citrus, vegetables), and Amhara (onions, tomatoes).\n\nKey export markets: Saudi Arabia (35%), UAE (22%), Sudan (15%), and EU (12%). The government has identified five priority value chains for investment: avocado, mango, banana, tomato, and onion.\n\nCold chain infrastructure remains the binding constraint — only 15% of production currently reaches export markets due to post-harvest losses."
+          }
+        ]
+      },
+      "teff-cereals": {
+        "label": "Teff and Cereals",
+        "articles": [
+          {
+            "id": 7,
+            "title": "Teff: Ethiopia's Super Grain Goes Global",
+            "date": "2026-02-28",
+            "category": "TEFF AND CEREALS",
+            "description": "Teff production reached a record 6.2 million tons in 2025, with exports growing as global demand for gluten-free grains expands.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "6 min read",
+            "body": "Teff (Eragrostis tef) is Ethiopia's indigenous staple grain, occupying 3 million hectares of farmland — more than any other crop. Production reached 6.2 million tons in 2025, with yields improving to 2.1 t/ha through adoption of improved varieties.\n\nExport volumes reached 85,000 tons, primarily to the US, EU, and diaspora markets. The global gluten-free grain market is projected to reach $12.5 billion by 2028, and teff occupies a premium position due to its nutritional profile.\n\nKey producing regions: Amhara (42%), Oromia (33%), and SNNPR (18%). The Ethiopian Institute of Agricultural Research has released 22 improved teff varieties specifically bred for mechanized production."
+          }
+        ]
+      },
+      "spices-aromatics": {
+        "label": "Spices and Aromatics",
+        "articles": [
+          {
+            "id": 8,
+            "title": "Ethiopian Spices: Korarima, Berbere, and the Flavor of Terroir",
+            "date": "2026-03-20",
+            "category": "SPICES AND AROMATICS",
+            "description": "Ethiopia's spice sector, led by korarima (Ethiopian cardamom), black cumin, and fenugreek, exports to 35 countries.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "5 min read",
+            "body": "Ethiopia is one of the world's most diverse centers of spice production, with over 20 commercial spice species. The sector generates $120 million in export earnings annually, growing at 8% per year.\n\nKorarima (Aframomum corrorima), known as Ethiopian cardamom, is the highest-value spice, exporting primarily to India, Sudan, and the Middle East. Black cumin (Nigella sativa) and fenugreek are the second and third largest export spices.\n\nProduction is concentrated in SNNPR (60%), Oromia (25%), and Amhara (10%). The spice supply chain is almost entirely traditional. Post-harvest processing could increase export value by 40-60%."
+          }
+        ]
+      },
+      "honey": {
+        "label": "Honey",
+        "articles": [
+          {
+            "id": 9,
+            "title": "Ethiopian Honey: Africa's Largest Producer Looks to Export Markets",
+            "date": "2026-04-10",
+            "category": "HONEY",
+            "description": "Ethiopia produces 65,000 tons of honey annually — the most in Africa — yet less than 5% is exported.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "5 min read",
+            "body": "Ethiopia is Africa's largest honey producer with 65,000 tons annually, followed by Tanzania (32,000 tons) and Kenya (22,000 tons). The country has an estimated beehive population of 12 million, of which 70% are traditional hives.\n\nExport volumes are negligible — less than 3,000 tons (5% of production) — primarily to Saudi Arabia, UAE, and Sudan. Premium white honey from Tigray and Amhara commands $8–12/kg in international markets.\n\nThe primary constraints are: lack of modern extraction and processing facilities, limited beekeeping training (only 15% of beekeepers have received formal training), and absence of organic certification for export lots."
+          }
+        ]
+      }
+    }
+  },
+  "supply-chain": {
+    "label": "SUPPLY CHAIN",
+    "children": {
+      "national-standard": {
+        "label": "National Standard",
+        "articles": [
+          {
+            "id": 10,
+            "title": "Ethiopia and the Valorization of Coffee",
+            "date": "2024-06-20",
+            "category": "QUALITY AND STANDARDS",
+            "description": "The Structural Paradox of Value Capture and the Centrality of Terroir",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "6 min read",
+            "body": "Ethiopia constitutes the center of genetic origin of Coffea arabica L., with a heritage of several tens of thousands of wild and cultivated varieties. Yet despite this unique position, the economic capture of this biological value remains structurally deficient.\n\nIn a system without terroir standards, value creation occurs downstream of the supply chain. Roasting, branding, and distribution capture the overwhelming majority of the quality premium. The producer, situated upstream, remains a price-taker in an undifferentiated commodity market.\n\nA structured terroir standard seeks to mechanically invert this flow. By establishing a premium price and measurable, verifiable criteria at the source — altitude, documented genetic variety, post-harvest method, moisture content, precise geographic zone — value originates at the point of production rather than at the point of consumption."
+          }
+        ]
+      },
+      "international-requirement": {
+        "label": "International Requirement",
+        "articles": [
+          {
+            "id": 11,
+            "title": "Understanding International Quality Standards for Ethiopian Commodities",
+            "date": "2026-05-10",
+            "category": "SUPPLY CHAIN",
+            "description": "An overview of key international standards affecting Ethiopian exports: ISO 22000, HACCP, GlobalGAP, BRCGS, and organic certifications.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "7 min read",
+            "body": "Ethiopian agricultural exporters must navigate an increasingly complex landscape of international quality and safety standards. GlobalGAP certification is required by most European retailers for fresh produce and coffee; 14 Ethiopian cooperatives are currently certified.\n\nBRCGS is increasingly mandated by UK and EU food importers for processed products. ISO 22000 (Food Safety Management) is the baseline for food processing facilities; 23 Ethiopian agro-processing plants are certified.\n\nOrganic certification covers approximately 75,000 ha of Ethiopian farmland, mostly coffee. The cost of initial certification ranges from $5,000–25,000 depending on scope."
+          },
+          {
+            "id": 12,
+            "title": "EUDR Compliance Roadmap for Ethiopian Exporters",
+            "date": "2026-06-15",
+            "category": "SUPPLY CHAIN",
+            "description": "A practical step-by-step guide to achieving EU Deforestation Regulation compliance for coffee and other commodities.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "8 min read",
+            "body": "The EU Deforestation Regulation (EUDR) requires operators placing commodities on the EU market to conduct due diligence proving no deforestation after December 31, 2020.\n\nFor Ethiopian exporters, the compliance roadmap involves four phases: Phase 1: GIS mapping of all production plots with polygon geolocation. Phase 2: Satellite imagery analysis to verify deforestation status. Phase 3: Supply chain traceability system implementation. Phase 4: Third-party audit and risk assessment documentation.\n\nEstimated cost: $0.08–0.15/kg for coffee. Compliance can unlock 15-25% premium in EU markets."
+          },
+          {
+            "id": 13,
+            "title": "China's Zero-Tariff Access: What Ethiopian Exporters Need to Know",
+            "date": "2026-05-25",
+            "category": "SUPPLY CHAIN",
+            "description": "China's removal of tariffs on African imports has opened a new front for Ethiopian agricultural exports.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "7 min read",
+            "body": "China's decision to remove tariffs on imports from African countries marks a significant shift in the global trade landscape. For Ethiopian exporters, the policy change arrives as traditional markets demand deeper compliance while emerging markets open with simpler access requirements.\n\nThe tariff elimination covers a broad range of agricultural products. China is now Ethiopia's fourth largest coffee market, with exports growing to more than 50,000 tonnes annually.\n\nFor exporters, the strategic implication is clear: the goal is not to choose between markets but to build systems that can handle both scale and compliance simultaneously."
+          }
+        ]
+      },
+      "logistic-infrastructure": {
+        "label": "Logistic and Infrastructure",
+        "articles": [
+          {
+            "id": 14,
+            "title": "Ethiopia's Logistics Corridors: Current State and Future Developments",
+            "date": "2026-04-05",
+            "category": "SUPPLY CHAIN",
+            "description": "A comprehensive overview of Ethiopia's trade logistics: railways, roads, ports, cold chain, and warehousing.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "6 min read",
+            "body": "Ethiopia's logistics infrastructure is in a phase of rapid transformation. The Addis Ababa–Djibouti railway, operational since 2018, carries 5 million tons of cargo annually and has reduced freight costs by 30%.\n\nThe national road network has expanded to 145,000 km. Cold chain capacity remains the binding constraint: national refrigerated storage is estimated at 280,000 m³, less than 15% of estimated requirement.\n\nThe Ethiopian Logistics Sector Strategy targets doubling cold chain capacity, developing four inland dry ports, and implementing a National Single Window for trade documentation."
+          },
+          {
+            "id": 15,
+            "title": "Warehouse Receipt Systems and Commodity Financing",
+            "date": "2026-03-18",
+            "category": "SUPPLY CHAIN",
+            "description": "The ECX warehouse receipt system enables farmers to access credit using stored commodities as collateral.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "5 min read",
+            "body": "Warehouse receipt systems are a critical tool for agricultural financing in Ethiopia. The ECX operates 36 warehousing facilities across the country with total capacity of 500,000 tons.\n\nFarmers can deposit commodities and receive negotiable warehouse receipts recognized by 14 commercial banks. Loans secured against warehouse receipts typically cover 60-75% of value, at interest rates of 12-16% per annum.\n\nIn 2025, warehouse receipt financing totaled 4.8 billion birr (~$85 million), serving an estimated 45,000 smallholders."
+          }
+        ]
+      },
+      "digitalization-traceability": {
+        "label": "Digitalization and Traceability",
+        "articles": [
+          {
+            "id": 16,
+            "title": "Ethiopia and the EUDR: The Traceability Imperative for Agricultural Exports",
+            "date": "2025-01-15",
+            "category": "DIGITALIZATION AND TRACEABILITY",
+            "description": "How the EU Deforestation Regulation forces Ethiopia to implement plot-level geolocation and full traceability.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "7 min read",
+            "body": "The EU Deforestation Regulation (EUDR) entered into force on 29 June 2023. For Ethiopia, the regulation represents a structural challenge. Agricultural exports — coffee, sesame and pulses — must now demonstrate they are not linked to deforestation after 31 December 2020.\n\nThis demands plot-level geolocation, full traceability from farm to export port, and digital documentation verifiable by EU authorities. The average coffee farmer cultivates less than two hectares, often on fragmented plots. Collecting accurate GPS coordinates requires field surveys and mobile data collection tools.\n\nThe Ethiopian Coffee and Tea Authority has initiated pilot traceability programs in Yirgacheffe and Sidamo, but scaling to the estimated 15 million people dependent on coffee will require substantial investment."
+          },
+          {
+            "id": 17,
+            "title": "Blockchain for Coffee Traceability: Ethiopia's Pilot Programs",
+            "date": "2026-05-28",
+            "category": "SUPPLY CHAIN",
+            "description": "Pilot blockchain traceability programs in Yirgacheffe and Sidamo demonstrate 30% premium capture for fully traceable lots.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "7 min read",
+            "body": "Blockchain-based traceability is transforming the Ethiopian coffee supply chain. The Yirgacheffe Coffee Farmers Cooperative Union piloted a distributed ledger system tracking 500 tons of coffee from 12,000 farmers through 8 washing stations to export.\n\nResults: fully traceable lots sold at a 30% premium ($3.80/kg vs $2.90/kg for non-traceable lots), with premium distributed transparently via smart contracts (72% to farmers, 18% to cooperatives, 10% to tech platform).\n\nThe government has allocated $2.5 million for scaling digital traceability infrastructure."
+          },
+          {
+            "id": 18,
+            "title": "GIS Mapping and Precision Agriculture in Ethiopia",
+            "date": "2026-06-20",
+            "category": "SUPPLY CHAIN",
+            "description": "Satellite imagery and GIS technologies are being deployed across 1.2 million hectares of Ethiopian farmland.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "5 min read",
+            "body": "Precision agriculture is gaining momentum in Ethiopia. The Ethiopian Space Science and Technology Institute has deployed satellite-based crop monitoring covering 1.2 million hectares.\n\nThe system provides weekly NDVI data for crop health assessment, yield prediction models achieving 85% accuracy, drought early warning with 2-week lead time, and soil moisture mapping at 10m resolution.\n\nThe Digital Agriculture Platform aggregates data from 3,500 agricultural extension workers covering 2.8 million smallholder farmers."
+          },
+          {
+            "id": 19,
+            "title": "EUDR Compliance Starts with Reality: Managing Ethiopia's Smallholder Coffee Landscape",
+            "date": "2026-07-20",
+            "category": "DIGITALIZATION AND TRACEABILITY",
+            "description": "More than 90% of Ethiopia's coffee plots are smaller than half a hectare. EUDR compliance starts here.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "8 min read",
+            "body": "EUDR compliance in Ethiopia starts with a single inescapable fact: more than 90 percent of Ethiopia's coffee plots are smaller than half a hectare. A single export shipment can combine coffee from thousands of smallholder farms.\n\nFive priority actions: First, map every cooperative and washing station in the supply chain. Second, close farmer-level geolocation gaps through cooperative-led GPS collection programs. Third, verify legality alongside geolocation. Fourth, build complete traceability from farm to export shipment. Fifth, prepare documentation before shipment."
+          },
+          {
+            "id": 20,
+            "title": "EUDR as a Data Challenge: Building the Systems for Transparent Agricultural Trade",
+            "date": "2026-07-15",
+            "category": "DIGITALIZATION AND TRACEABILITY",
+            "description": "For Ethiopia, EUDR is becoming as much a data challenge as a sustainability challenge.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "6 min read",
+            "body": "For coffee-producing countries like Ethiopia, the EU Deforestation Regulation is becoming as much a data challenge as a sustainability challenge. Companies can no longer rely on supplier declarations and spreadsheet-based records.\n\nThey need systems capable of managing traceability, geolocation, and due diligence data across entire supply chains. The biggest risks are often not in the field itself — they are in the data.\n\nMissing farm records, inconsistent formatting across cooperatives, disconnected information systems between washing stations and exporters, and manual documentation processes can all become compliance risks and market-access barriers."
+          },
+          {
+            "id": 21,
+            "title": "From Soil to Collateral: How the Digital Producer Profile is Unlocking Agricultural Finance",
+            "date": "2026-04-25",
+            "category": "DIGITALIZATION AND TRACEABILITY",
+            "description": "AgroSpace's 360° Producer Profile transforms farm data into a digital business resume for credit access.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "7 min read",
+            "body": "For decades, the Ethiopian smallholder farmer has been financially invisible. Less than 10 percent of smallholder farmers have ever accessed bank credit. The financing gap for Ethiopian agriculture is estimated at US$8.7 billion annually.\n\nAgroSpace builds a comprehensive 360° Producer Profile for every farmer in its network — a dynamic digital business resume comprising verified land identity through GPS polygon mapping, production history capturing multi-year yield data, and transaction integrity documenting every payment received.\n\nThe bottleneck isn't money. It's risk. And risk is reduced by data."
+          }
+        ]
+      },
+      "general": {
+        "label": "general",
+        "articles": []
+      }
+    }
+  },
+  "investment": {
+    "label": "INVESTMENT",
+    "children": {
+      "why-invest": {
+        "label": "Why Invest in Ethiopia",
+        "articles": [
+          {
+            "id": 22,
+            "title": "Why Ethiopia is the Next Frontier for Agricultural Investment",
+            "date": "2026-03-10",
+            "category": "INVESTMENT",
+            "description": "Ethiopia offers the largest livestock population in Africa, 18 million smallholders, and diverse agro-ecological zones.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "6 min read",
+            "body": "Ethiopia represents one of the last great frontiers for agricultural investment. The country possesses 74 million hectares of arable land, of which only 20% is currently cultivated.\n\nThe government's Growth and Transformation Plan prioritizes agro-processing, textile manufacturing, and horticulture as strategic sectors for FDI. Key incentives include 100% customs duty exemption on imported capital goods and tax holidays of up to 6 years.\n\nAgricultural GDP grew at an average of 6.4% annually over the past decade."
+          },
+          {
+            "id": 23,
+            "title": "Agri-Fintech Opportunities in Ethiopia",
+            "date": "2026-04-22",
+            "category": "INVESTMENT",
+            "description": "With only 35% of adults having formal financial access, Ethiopia presents a massive opportunity for mobile-based agricultural credit.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "5 min read",
+            "body": "Financial inclusion is the single most transformative lever for Ethiopian agriculture. Only 35% of adults have access to formal financial services, and less than 10% of smallholder farmers have ever accessed bank credit.\n\nThe telecommunication sector liberalization has created the infrastructure layer for mobile money and digital lending. There are 47 active agri-fintech startups as of early 2026.\n\nThe National Bank of Ethiopia's 2024 directive on digital lending allowed non-bank entities to issue credit through mobile platforms. The total addressable market for agricultural credit is estimated at $8.7 billion annually."
+          },
+          {
+            "id": 24,
+            "title": "Special Economic Zones and Agri-Processing Parks",
+            "date": "2026-05-15",
+            "category": "INVESTMENT",
+            "description": "Ethiopia's Industrial Parks programme includes dedicated agro-processing zones with plug-and-play infrastructure.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "7 min read",
+            "body": "The Industrial Parks Development Corporation manages 13 operational industrial parks across Ethiopia. Four are designated agro-processing parks: Bure (tomato, mango), Baeker (livestock), Yirgalem (coffee, horticulture), and Bulbula (dairy, cereals).\n\nInvestors benefit from 100% exemption from customs duties on imported capital goods, income tax exemption for up to 6 years, and one-stop-shop services including business registration and work permits within 15 days."
+          },
+          {
+            "id": 25,
+            "title": "Ethiopia's Historic Export Year: US$10.7 Billion and the Path to Agricultural Transformation",
+            "date": "2026-07-11",
+            "category": "INVESTMENT",
+            "description": "Ethiopia recorded its highest-ever annual export performance at US$10.7 billion, a 29% increase.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "6 min read",
+            "body": "Ethiopia has recorded its highest-ever annual export performance, generating US$10.7 billion in export revenue during the 2025/26 fiscal year — a 29 percent increase from the previous year.\n\nCoffee exports reached a record US$3 billion, reinforcing Ethiopia's position as one of the world's leading Arabica coffee origins. Strong contributions also came from oilseeds, horticulture, livestock products, and gold.\n\nThe diversity of growth suggests a structural broadening of the export base rather than a price-driven spike in a single category."
+          }
+        ]
+      },
+      "challenges-opportunities": {
+        "label": "Challenges and Opportunities",
+        "articles": [
+          {
+            "id": 26,
+            "title": "Navigating EUDR Compliance: Challenges and Solutions for Ethiopian Exporters",
+            "date": "2026-06-01",
+            "category": "INVESTMENT",
+            "description": "The EUDR presents both a compliance burden and a strategic opportunity for Ethiopian agri-exporters.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "8 min read",
+            "body": "The EU Deforestation Regulation requires all commodities entering the EU market to be deforestation-free with full geolocation data. For Ethiopia, this affects primarily coffee exports (~$1.2 billion annually to EU markets).\n\nKey challenges: 85% of coffee is produced by smallholders with plots <2ha. The cost of compliance per shipment is estimated at $0.05–0.12/kg.\n\nStrategic opportunity: EUDR compliance creates a verifiable provenance layer that enables terroir-based premium pricing. Early adopters can command a 15-25% premium."
+          },
+          {
+            "id": 27,
+            "title": "Logistics Bottlenecks and the Port of Djibouti Dependency",
+            "date": "2026-04-08",
+            "category": "INVESTMENT",
+            "description": "Ethiopia's reliance on the Port of Djibouti for 95% of trade creates structural vulnerability.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "6 min read",
+            "body": "The Port of Djibouti handles approximately 95% of Ethiopia's maritime trade, processing over 1.2 million TEUs annually. The Addis Ababa–Djibouti railway moves bulk cargo in 12 hours.\n\nSingle-point dependency creates risks: port congestion during peak seasons adds 7–14 days to transit times. Berbera Port (Somaliland) is emerging as a competitive alternative.\n\nFor agri-exporters, cold chain logistics remain the primary bottleneck."
+          },
+          {
+            "id": 28,
+            "title": "The Data That Stops a Shipment: Why One Unmapped Plot Breaks EUDR Compliance",
+            "date": "2026-06-02",
+            "category": "INVESTMENT",
+            "description": "Under EUDR, a single smallholder plot lacking geolocation data can cause an entire container to be flagged.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "7 min read",
+            "body": "Under the EU Deforestation Regulation, compliance is not partial. It is absolute. An exporter may have audited their entire supply chain, yet if a single smallholder lacks geolocation data, the entire container can be flagged.\n\nThe operational impact is severe: shipment delays lasting weeks, storage fees accumulating, contract penalties triggered, buyer trust damaged. This is not a compliance issue — it is a system failure.\n\nThree changes can prevent this: map every plot at the source using offline GPS tools, build complete traceability systems, and prepare documentation before shipment."
+          }
+        ]
+      },
+      "regulatory-local-context": {
+        "label": "Regulatory and Local Context",
+        "articles": [
+          {
+            "id": 29,
+            "title": "Land Tenure and Investment Law in Ethiopia",
+            "date": "2026-02-20",
+            "category": "INVESTMENT",
+            "description": "Understanding Ethiopia's unique land governance system: state ownership, leasehold structures, and joint ventures.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "7 min read",
+            "body": "Under the 1995 Constitution, all land in Ethiopia is owned by the state. Citizens and investors hold use rights rather than freehold title.\n\nFor foreign investors, land access is through ground leases from regional government, typically for 30–50 years renewable. Recent reforms simplified the process: minimum capital threshold reduced from $200,000 to $150,000.\n\nJoint ventures with Ethiopian partners can reduce minimum capital requirements by 50%. Land rental costs vary from $15/ha in lowland areas to $300/ha near Addis."
+          },
+          {
+            "id": 30,
+            "title": "Farmer Shareholders: Ethiopia's Proposed Agricultural Business Company Reform",
+            "date": "2026-06-25",
+            "category": "INVESTMENT",
+            "description": "A proposed law would allow farmers to become shareholders in Farmer Production and Agribusiness Companies.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "7 min read",
+            "body": "A significant shift is emerging in Ethiopia's agricultural sector. A proposed law would allow farmers to become shareholders in Farmer Production and Agribusiness Companies (ABCs).\n\nFarmers would earn income through three channels: agricultural production, company shares, and dividend distributions. The model aims to transform individual producers into collective business entities.\n\nOne of the biggest challenges facing African agriculture has been fragmentation. By aggregating into ABCs with shareholding structures, farmers gain the institutional weight needed to operate as commercial counterparts."
+          },
+          {
+            "id": 31,
+            "title": "The End of the Digital Void: Ethiopia's Multi-Actor Agricultural Extension Reform",
+            "date": "2026-04-10",
+            "category": "INVESTMENT",
+            "description": "Ethiopia approved a historic reform transitioning from a state-led extension system to a technology-driven model.",
+            "author": "AgroSpace Ethiopia",
+            "readingTime": "8 min read",
+            "body": "The Ethiopian Parliament has officially approved the Multi-Actor Agricultural Extension Reform, marking a historic pivot from a strictly state-led system to a diversified, technology-driven model.\n\nFor the 14 million smallholders in Ethiopia, this means the 36 percent coverage gap in extension services is finally being addressed by opening the doors to private-sector innovation and digital advisory platforms.\n\nThe reform creates three critical openings: standardized accountability, access to the national agricultural extension fund, and a unified interface enabling NGOs, private firms, and government agents to collaborate."
+          }
+        ]
+      }
+    }
+  },
+  "videos": [
+    {
+      "title": "Inside Ethiopian Coffee Farms",
+      "date": "2026-07-10",
+      "src": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "thumbnail": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=800&h=450&fit=crop",
+      "duration": "0:30"
+    },
+    {
+      "title": "Terroir and Traceability in Kaffa",
+      "date": "2026-07-14",
+      "src": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+      "thumbnail": "https://images.unsplash.com/photo-1515039113165-f7b8670b3a35?w=800&h=450&fit=crop",
+      "duration": "0:45"
+    }
+  ],
+  "digitalization-and-traceability": {
+    "label": "DIGITALIZATION AND TRACEABILITY",
+    "children": {
+      "general": {
+        "label": "general",
+        "articles": []
+      }
+    }
+  }
+}

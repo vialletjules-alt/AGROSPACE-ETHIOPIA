@@ -1,0 +1,1569 @@
+{
+  "lastUpdated": "2026-07-25",
+  "sources": [
+    "USDA FAS PSD Online — Production, Supply & Distribution (apps.fas.usda.gov/psdonline)",
+    "FAO FAOSTAT — Crop & Livestock Statistics (fenixservices.fao.org/faostat/api)",
+    "World Bank Data — Ethiopia Indicators (api.worldbank.org/v2/country/ET)",
+    "Ethiopian Statistics Service — Agricultural Sample Survey Reports (ess.gov.et)",
+    "National Bank of Ethiopia — Annual Report, Coffee Floor Price (nbe.gov.et)",
+    "Ethiopian Coffee & Tea Authority — Coffee Sector Reports (ecta.gov.et)",
+    "Ethiopia Commodity Exchange — Daily Price Data (ecx.com.et)",
+    "FEWS NET / USGS — Crop Monitor, Food Security Data (fews.net)",
+    "International Coffee Organization — Trade Data (ico.org)",
+    "UN COMTRADE — Bilateral Trade Flows (comtrade.un.org)",
+    "IFDC — Fertilizer Statistics (hub.ifdc.org)",
+    "EEA — Report on the Ethiopian Economy (eea-et.org)",
+    "Ministry of Agriculture — Annual Performance Reports",
+    "Ethiopian Investment Commission — FDI Statistics (investethiopia.gov.et)",
+    "AfDB — African Economic Outlook (afdb.org)",
+    "IMF — World Economic Outlook Database (imf.org)",
+    "Fana Media Corp — Ministerial Briefings (fanamc.com)",
+    "CSA Ethiopia — Population & Housing Census"
+  ],
+  "macroEconomy": {
+    "gdp": {
+      "total2025": {
+        "value": 145,
+        "unit": "billion USD",
+        "source": "IMF WEO 2025"
+      },
+      "agriShare": {
+        "value": 35.0,
+        "trend": "declining from 48% in 2000",
+        "source": "World Bank / EEA 2025"
+      },
+      "agriGDP2025": {
+        "value": 50.0,
+        "unit": "billion USD",
+        "source": "EEA Report on Ethiopian Economy 2025"
+      },
+      "realGrowth2025": {
+        "value": 6.4,
+        "unit": "percent",
+        "source": "IMF WEO"
+      },
+      "agriGrowth2025": {
+        "value": 4.8,
+        "unit": "percent",
+        "source": "EEA 2025"
+      },
+      "gdpPerCapita": {
+        "value": 1450,
+        "unit": "USD",
+        "source": "World Bank"
+      },
+      "totalExport2025": {
+        "value": 10700000000,
+        "unit": "USD",
+        "source": "NBE Annual Report 2025/26"
+      },
+      "agriExportShare2025": {
+        "value": 42.5,
+        "unit": "percent",
+        "source": "NBE"
+      }
+    },
+    "employment": {
+      "totalLabourForce": {
+        "value": 62000000,
+        "unit": "people",
+        "source": "CSA 2024"
+      },
+      "agriEmployment": {
+        "value": 67,
+        "unit": "percent",
+        "source": "World Bank 2024"
+      },
+      "youthUnemployment": {
+        "value": 19.1,
+        "unit": "percent",
+        "source": "CSA Labour Force Survey 2024"
+      },
+      "womenInAgri": {
+        "value": 49,
+        "unit": "percent",
+        "source": "CSA 2024"
+      }
+    },
+    "inflation": {
+      "headlineCPI2025": {
+        "value": 13.4,
+        "unit": "percent",
+        "source": "CSA CPI May 2026"
+      },
+      "foodInflation2025": {
+        "value": 16.2,
+        "unit": "percent",
+        "source": "CSA CPI May 2026"
+      },
+      "exchangeRate2025": {
+        "value": 95,
+        "unit": "ETB per USD",
+        "source": "NBE 2025/26"
+      }
+    }
+  },
+  "cropProduction": {
+    "totalHarvest2025": {
+      "value": 130000000,
+      "unit": "quintals (13M MT)",
+      "source": "MoA Briefing Jul 2026 (fanamc.com)"
+    },
+    "totalAreaCultivated2025": {
+      "value": 29000000,
+      "unit": "hectares",
+      "source": "MoA 2025/26"
+    },
+    "crops": [
+      {
+        "name": "Coffee (green)",
+        "production2025": 694000,
+        "production2024": 638000,
+        "areaHarvested2025": 790000,
+        "yield2025": 0.88,
+        "unit": "tonnes",
+        "source": "USDA FAS Coffee Annual ET2025-0014"
+      },
+      {
+        "name": "Maize (Corn)",
+        "production2025": 10300000,
+        "production2024": 10200000,
+        "areaHarvested2025": 2550000,
+        "yield2025": 4.04,
+        "unit": "tonnes",
+        "source": "USDA FAS PSD / IPAD"
+      },
+      {
+        "name": "Teff",
+        "production2025": 6200000,
+        "production2024": 5700000,
+        "areaHarvested2025": 3100000,
+        "yield2025": 2.0,
+        "unit": "tonnes",
+        "source": "CSA / ESS Agricultural Sample Survey"
+      },
+      {
+        "name": "Wheat",
+        "production2025": 6500000,
+        "production2024": 6200000,
+        "areaHarvested2025": 1900000,
+        "yield2025": 3.42,
+        "unit": "tonnes",
+        "source": "USDA FAS PSD"
+      },
+      {
+        "name": "Sorghum",
+        "production2025": 3900000,
+        "production2024": 4100000,
+        "areaHarvested2025": 1650000,
+        "yield2025": 2.36,
+        "unit": "tonnes",
+        "source": "USDA FAS PSD"
+      },
+      {
+        "name": "Barley",
+        "production2025": 2400000,
+        "production2024": 2300000,
+        "areaHarvested2025": 600000,
+        "yield2025": 4.0,
+        "unit": "tonnes",
+        "source": "USDA FAS PSD"
+      },
+      {
+        "name": "Millet",
+        "production2025": 1180000,
+        "production2024": 1130000,
+        "areaHarvested2025": 380000,
+        "yield2025": 3.11,
+        "unit": "tonnes",
+        "source": "USDA FAS PSD"
+      },
+      {
+        "name": "Sesame",
+        "production2025": 410000,
+        "production2024": 380000,
+        "areaHarvested2025": 480000,
+        "yield2025": 0.85,
+        "unit": "tonnes",
+        "source": "CSA / ESS"
+      },
+      {
+        "name": "Soybean",
+        "production2025": 260000,
+        "production2024": 250000,
+        "areaHarvested2025": 80000,
+        "yield2025": 3.25,
+        "unit": "tonnes",
+        "source": "USDA FAS PSD"
+      },
+      {
+        "name": "Rapeseed",
+        "production2025": 45000,
+        "production2024": 45000,
+        "areaHarvested2025": 25000,
+        "yield2025": 1.8,
+        "unit": "tonnes",
+        "source": "USDA FAS PSD"
+      },
+      {
+        "name": "Sugar Cane",
+        "production2025": 440000,
+        "production2024": 440000,
+        "unit": "tonnes",
+        "source": "USDA FAS"
+      },
+      {
+        "name": "Cotton (lint)",
+        "production2025": 39000,
+        "production2024": 39000,
+        "unit": "tonnes",
+        "source": "USDA FAS PSD"
+      },
+      {
+        "name": "Honey",
+        "production2025": 65000,
+        "production2024": 62000,
+        "unit": "tonnes",
+        "source": "CSA / ESS"
+      },
+      {
+        "name": "Avocado",
+        "production2025": 45000,
+        "production2024": 38000,
+        "unit": "tonnes",
+        "source": "MoA Horticulture Report"
+      },
+      {
+        "name": "Rice (paddy)",
+        "production2025": 140000,
+        "production2024": 140000,
+        "areaHarvested2025": 50000,
+        "unit": "tonnes",
+        "source": "USDA FAS PSD"
+      },
+      {
+        "name": "Pulses (total)",
+        "production2025": 2800000,
+        "production2024": 2600000,
+        "areaHarvested2025": 1500000,
+        "unit": "tonnes",
+        "source": "CSA / ESS"
+      },
+      {
+        "name": "Root Crops (enset, potato)",
+        "production2025": 4200000,
+        "production2024": 4000000,
+        "unit": "tonnes",
+        "source": "CSA / ESS"
+      },
+      {
+        "name": "Spices (total)",
+        "production2025": 350000,
+        "production2024": 320000,
+        "unit": "tonnes",
+        "source": "CSA / ESS"
+      },
+      {
+        "name": "Horticulture (total)",
+        "production2025": 34000000,
+        "production2024": 12260000,
+        "unit": "quintals",
+        "source": "Ethiopia Quarterly Economic Profile Apr 2025"
+      }
+    ],
+    "coffee": {
+      "arabicaShare": 100,
+      "unit": "percent",
+      "varietalCount": "6000–10000",
+      "geneticShareOfGlobal": 95,
+      "globalRank": 5,
+      "africaRank": 1,
+      "exportTarget2033": 4000000000,
+      "unitExportTarget": "USD",
+      "strategy": "Comprehensive Coffee Development Strategy 2019–2033 (ECTA)",
+      "producingRegions": [
+        {
+          "region": "Oromia",
+          "share": 59,
+          "source": "USDA FAS Coffee Annual 2025"
+        },
+        {
+          "region": "Sidama",
+          "share": 13,
+          "source": "USDA FAS"
+        },
+        {
+          "region": "South-West Ethiopia",
+          "share": 13,
+          "source": "USDA FAS"
+        },
+        {
+          "region": "South Ethiopia",
+          "share": 8,
+          "source": "USDA FAS"
+        },
+        {
+          "region": "Central Ethiopia",
+          "share": 4,
+          "source": "USDA FAS"
+        },
+        {
+          "region": "Other",
+          "share": 3,
+          "source": "USDA FAS"
+        }
+      ],
+      "exportDestinations": [
+        {
+          "country": "Germany",
+          "share": 18,
+          "source": "ECTA / UN Comtrade 2024"
+        },
+        {
+          "country": "Saudi Arabia",
+          "share": 15,
+          "source": "ECTA"
+        },
+        {
+          "country": "USA",
+          "share": 12,
+          "source": "ECTA"
+        },
+        {
+          "country": "China",
+          "share": 10,
+          "source": "ECTA"
+        },
+        {
+          "country": "Japan",
+          "share": 8,
+          "source": "ECTA"
+        },
+        {
+          "country": "Belgium",
+          "share": 7,
+          "source": "ECTA"
+        },
+        {
+          "country": "Italy",
+          "share": 5,
+          "source": "ECTA"
+        },
+        {
+          "country": "France",
+          "share": 4,
+          "source": "ECTA"
+        },
+        {
+          "country": "Other",
+          "share": 21,
+          "source": "ECTA"
+        }
+      ],
+      "domesticConsumption2025": {
+        "value": 3700000,
+        "unit": "60-kg bags",
+        "source": "USDA FAS Coffee Annual 2025"
+      }
+    }
+  },
+  "livestock": {
+    "shareOfGDP": {
+      "value": 16,
+      "unit": "percent",
+      "source": "EEA 2025"
+    },
+    "totalTLU": {
+      "value": 62,
+      "unit": "million TLU",
+      "source": "CSA / ESS 2024"
+    },
+    "globalRank": {
+      "value": 5,
+      "scope": "World",
+      "source": "FAO / PSI Ethiopia 2023"
+    },
+    "africaRank": {
+      "value": 1,
+      "scope": "Africa",
+      "source": "FAO"
+    },
+    "population": {
+      "cattle": {
+        "value2025": 72000000,
+        "value2021": 54000000,
+        "trend": "+33% since 2010",
+        "unit": "head",
+        "source": "CSA AgSS / FAOSTAT"
+      },
+      "sheep": {
+        "value2025": 45000000,
+        "value2021": 43000000,
+        "trend": "+4.6% CAGR",
+        "unit": "head",
+        "source": "CSA / Frontiers VetSci 2022"
+      },
+      "goats": {
+        "value2025": 54000000,
+        "value2021": 52500000,
+        "trend": "+6.7% CAGR",
+        "unit": "head",
+        "source": "CSA / Frontiers VetSci 2022"
+      },
+      "poultry": {
+        "value2025": 57000000,
+        "trend": "mainly indigenous",
+        "unit": "head",
+        "source": "CSA / PSI 2023"
+      },
+      "equines": {
+        "value2025": 13300000,
+        "unit": "head",
+        "source": "CSA / PSI 2023"
+      },
+      "beehives": {
+        "value2025": 7000000,
+        "unit": "hives",
+        "source": "CSA / PSI 2023"
+      },
+      "camels": {
+        "value2025": 2500000,
+        "unit": "head",
+        "source": "CSA"
+      }
+    },
+    "production": {
+      "meatTotal": {
+        "value2024": 2100000,
+        "unit": "tonnes",
+        "source": "FAO"
+      },
+      "milkTotal": {
+        "value2024": 5500000,
+        "unit": "tonnes",
+        "source": "FAO"
+      },
+      "eggTotal": {
+        "value2024": 90000,
+        "unit": "tonnes",
+        "source": "FAO"
+      },
+      "honeyProduction": {
+        "value2024": 62000,
+        "value2025": 65000,
+        "unit": "tonnes",
+        "source": "CSA"
+      },
+      "artificialInsemination2025": {
+        "value": 4900000,
+        "source": "MoA Bounty of Basket Initiative Jul 2026"
+      }
+    },
+    "systems": {
+      "cropLivestockMixed": {
+        "share": 49,
+        "description": "Highlands, settled farming + livestock",
+        "source": "Frontiers VetSci 2022"
+      },
+      "pastoral": {
+        "share": 51,
+        "description": "Lowlands, mobile herding",
+        "source": "Frontiers VetSci 2022"
+      }
+    }
+  },
+  "exportTrade": {
+    "totalExports2025": {
+      "value": 10700000000,
+      "growth2024_2025": 29,
+      "unit": "USD",
+      "source": "NBE 2025/26"
+    },
+    "agriExports2025": {
+      "value": 4550000000,
+      "unit": "USD",
+      "source": "MoA Briefing Jul 2026"
+    },
+    "coffeeExportValue2025": {
+      "value": 3100000000,
+      "volume": 7800000,
+      "volumeUnit": "60-kg bags",
+      "unit": "USD",
+      "source": "USDA FAS / MoA Jul 2026"
+    },
+    "byCommodity": [
+      {
+        "commodity": "Coffee",
+        "value2023": 2400000000,
+        "value2024": 2700000000,
+        "value2025": 3100000000,
+        "unit": "USD",
+        "source": "NBE / USDA FAS"
+      },
+      {
+        "commodity": "Gold",
+        "value2023": 900000000,
+        "value2024": 1050000000,
+        "value2025": 1200000000,
+        "unit": "USD",
+        "source": "NBE"
+      },
+      {
+        "commodity": "Sesame",
+        "value2023": 480000000,
+        "value2024": 520000000,
+        "value2025": 600000000,
+        "unit": "USD",
+        "source": "NBE / ECX"
+      },
+      {
+        "commodity": "Cut Flowers",
+        "value2023": 380000000,
+        "value2024": 430000000,
+        "value2025": 500000000,
+        "unit": "USD",
+        "source": "NBE / EHPEA"
+      },
+      {
+        "commodity": "Pulses",
+        "value2023": 320000000,
+        "value2024": 350000000,
+        "value2025": 400000000,
+        "unit": "USD",
+        "source": "NBE"
+      },
+      {
+        "commodity": "Livestock & Meat",
+        "value2023": 250000000,
+        "value2024": 280000000,
+        "value2025": 350000000,
+        "unit": "USD",
+        "source": "NBE"
+      },
+      {
+        "commodity": "Vegetables & Fruits",
+        "value2023": 120000000,
+        "value2024": 150000000,
+        "value2025": 200000000,
+        "unit": "USD",
+        "source": "NBE"
+      },
+      {
+        "commodity": "Teff & Grain",
+        "value2023": 80000000,
+        "value2024": 95000000,
+        "value2025": 110000000,
+        "unit": "USD",
+        "source": "NBE"
+      },
+      {
+        "commodity": "Spices",
+        "value2023": 90000000,
+        "value2024": 105000000,
+        "value2025": 120000000,
+        "unit": "USD",
+        "source": "NBE"
+      },
+      {
+        "commodity": "Honey",
+        "value2023": 18000000,
+        "value2024": 22000000,
+        "value2025": 30000000,
+        "unit": "USD",
+        "source": "NBE"
+      }
+    ],
+    "mainDestinations": [
+      {
+        "country": "Germany",
+        "share": 10,
+        "source": "UN Comtrade 2024"
+      },
+      {
+        "country": "Saudi Arabia",
+        "share": 9,
+        "source": "UN Comtrade"
+      },
+      {
+        "country": "USA",
+        "share": 8,
+        "source": "UN Comtrade"
+      },
+      {
+        "country": "Somalia",
+        "share": 7,
+        "source": "UN Comtrade"
+      },
+      {
+        "country": "China",
+        "share": 6,
+        "source": "UN Comtrade"
+      },
+      {
+        "country": "UAE",
+        "share": 6,
+        "source": "UN Comtrade"
+      },
+      {
+        "country": "Netherlands",
+        "share": 5,
+        "source": "UN Comtrade"
+      },
+      {
+        "country": "India",
+        "share": 4,
+        "source": "UN Comtrade"
+      },
+      {
+        "country": "Other",
+        "share": 45,
+        "source": "UN Comtrade"
+      }
+    ]
+  },
+  "importTrade": {
+    "totalImports2025": {
+      "value": 19000000000,
+      "unit": "USD",
+      "source": "NBE 2025/26"
+    },
+    "foodImports2025": {
+      "value": 1800000000,
+      "unit": "USD",
+      "source": "NBE"
+    },
+    "fertilizerImports2025": {
+      "value": 450000000,
+      "volume": 1400000,
+      "volumeUnit": "tonnes",
+      "unit": "USD",
+      "source": "IFDC / EABC 2024"
+    },
+    "wheatImports2025": {
+      "value": 600000000,
+      "volume": 1500000,
+      "volumeUnit": "tonnes",
+      "unit": "USD",
+      "source": "USDA FAS"
+    }
+  },
+  "landEnvironment": {
+    "totalArea": {
+      "value": 1104300,
+      "unit": "km²",
+      "source": "CSA"
+    },
+    "arableLand": {
+      "value": 74000000,
+      "unit": "hectares",
+      "source": "World Bank / MoA"
+    },
+    "cultivatedLand": {
+      "value": 14800000,
+      "unit": "hectares",
+      "source": "MoA 2025/26"
+    },
+    "cultivatedShare": {
+      "value": 20,
+      "unit": "percent",
+      "source": "MoA"
+    },
+    "irrigatedLand": {
+      "value": 1200000,
+      "trend": "197% of Malabo target (2022)",
+      "unit": "hectares",
+      "source": "CAADP BR4 2025"
+    },
+    "irrigationPotential": {
+      "value": 5000000,
+      "unit": "hectares",
+      "source": "MoA / AfDB"
+    },
+    "forestCover": {
+      "value": 15600000,
+      "unit": "hectares",
+      "source": "FAO"
+    },
+    "forestDeclineRate": {
+      "value": 0.8,
+      "unit": "percent per year",
+      "source": "FAO"
+    },
+    "landUnderSLM": {
+      "value": 34,
+      "trend": "Target 30%, exceeded",
+      "unit": "percent",
+      "source": "CAADP BR4 2025"
+    },
+    "agroEcologicalZones": [
+      {
+        "zone": "Highlands (Dega)",
+        "elevation": ">2500m",
+        "share": 10,
+        "description": "Temperate, cereals & livestock"
+      },
+      {
+        "zone": "Mid-Highlands (Weyna Dega)",
+        "elevation": "1500–2500m",
+        "share": 40,
+        "description": "Coffee, teff, maize, wheat, enset"
+      },
+      {
+        "zone": "Lowlands (Kolla)",
+        "elevation": "500–1500m",
+        "share": 30,
+        "description": "Sorghum, sesame, cotton, livestock"
+      },
+      {
+        "zone": "Arid Lowlands (Berha)",
+        "elevation": "<500m",
+        "share": 20,
+        "description": "Pastoral, camel, goats"
+      }
+    ]
+  },
+  "demographics": {
+    "totalFarmers": 18000000,
+    "smallholders": 14000000,
+    "coffeeFarmers": 5000000,
+    "avgFarmSize": 1.2,
+    "ruralPopulation": {
+      "value": 79,
+      "unit": "percent",
+      "source": "World Bank 2024"
+    }
+  },
+  "inputUse": {
+    "fertilizerConsumption": {
+      "value2023": 81,
+      "unit": "kg/ha",
+      "target": 50,
+      "trend": "Exceeded Malabo target 162%",
+      "source": "CAADP BR4 2025"
+    },
+    "fertilizerImportDependency": {
+      "value": 100,
+      "unit": "percent",
+      "description": "No domestic primary production",
+      "source": "IFDC Fertilizer Statistics 2024"
+    },
+    "mainFertilizerTypes": [
+      "UREA",
+      "NPS",
+      "NPS+UREA blend",
+      "DAP (phasing out)"
+    ],
+    "improvedSeedAdoption": {
+      "value": 35,
+      "unit": "percent of area",
+      "source": "CSA AgSS / EIAR"
+    },
+    "mechanizationRate": {
+      "value": 12,
+      "unit": "percent",
+      "description": "Tractor use for land preparation",
+      "source": "CSA / MoA"
+    },
+    "extensionCoverage": {
+      "value": 64,
+      "unit": "percent",
+      "description": "Farmer reached by extension",
+      "source": "MoA / CAADP"
+    },
+    "irrigationAdoption": {
+      "value": 8,
+      "unit": "percent of cultivated land",
+      "source": "MoA"
+    }
+  },
+  "prices": [
+    {
+      "commodity": "Coffee G1",
+      "price2026": 7.2,
+      "price2025": 6.8,
+      "unit": "USD/kg",
+      "source": "ECTA / ECX"
+    },
+    {
+      "commodity": "Coffee G4 (Commercial)",
+      "price2026": 4.5,
+      "price2025": 4.2,
+      "unit": "USD/kg",
+      "source": "ECTA / ECX"
+    },
+    {
+      "commodity": "Sesame (Humera)",
+      "price2026": 3.1,
+      "price2025": 2.8,
+      "unit": "USD/kg",
+      "source": "ECX"
+    },
+    {
+      "commodity": "Teff (White)",
+      "price2026": 1.35,
+      "price2025": 1.2,
+      "unit": "USD/kg",
+      "source": "ECX / CSA"
+    },
+    {
+      "commodity": "Teff (Mixed)",
+      "price2026": 1.05,
+      "price2025": 0.95,
+      "unit": "USD/kg",
+      "source": "ECX / CSA"
+    },
+    {
+      "commodity": "Maize (White)",
+      "price2026": 0.35,
+      "price2025": 0.3,
+      "unit": "USD/kg",
+      "source": "ECX / CSA"
+    },
+    {
+      "commodity": "Wheat",
+      "price2026": 0.5,
+      "price2025": 0.45,
+      "unit": "USD/kg",
+      "source": "ECX / CSA"
+    },
+    {
+      "commodity": "Avocado (Hass)",
+      "price2026": 1.8,
+      "price2025": 1.5,
+      "unit": "USD/kg",
+      "source": "MoA Horticulture"
+    },
+    {
+      "commodity": "Honey (White/table)",
+      "price2026": 10.0,
+      "price2025": 9.0,
+      "unit": "USD/kg",
+      "source": "CSA / MoA"
+    },
+    {
+      "commodity": "Soybean",
+      "price2026": 0.75,
+      "price2025": 0.65,
+      "unit": "USD/kg",
+      "source": "ECX"
+    }
+  ],
+  "investmentFinance": {
+    "fdiInflows2024": {
+      "value": 3200000000,
+      "unit": "USD",
+      "source": "EIC / World Bank"
+    },
+    "fdiAgriProcessingShare": {
+      "value": 13,
+      "unit": "percent",
+      "source": "EIC 2023/24"
+    },
+    "agriculturalCreditGap": {
+      "value": 8700000000,
+      "unit": "USD",
+      "source": "NAFIR / World Bank"
+    },
+    "smallholderCreditAccess": {
+      "value": 10,
+      "unit": "percent",
+      "source": "CSA / FinScope 2024"
+    },
+    "warehouseReceiptFinancing2025": {
+      "value": 85000000,
+      "unit": "USD (4.8B ETB)",
+      "source": "ECX Annual Report 2025"
+    },
+    "agriFintechStartups": {
+      "value": 47,
+      "year": 2026,
+      "source": "AgriFintech Map 2026"
+    },
+    "mobileMoneyPenetration": {
+      "value": 45,
+      "unit": "percent of adults",
+      "source": "NBE 2025"
+    },
+    "industrialParks": {
+      "totalOperational": 13,
+      "agriProcessingParks": [
+        "Bure (tomato, chicken)",
+        "Baeker (livestock)",
+        "Yirgalem (coffee, horticulture)",
+        "Bulbula (dairy, cereals)"
+      ]
+    }
+  },
+  "infrastructure": {
+    "roadNetwork": {
+      "value": 145000,
+      "unit": "km",
+      "source": "Ethiopian Roads Authority 2024"
+    },
+    "railwayCapacity": {
+      "value": 5000000,
+      "unit": "tonnes/year",
+      "line": "Addis-Djibouti",
+      "source": "Ethio-Djibouti Railway 2024"
+    },
+    "portDependencyDjibouti": {
+      "value": 95,
+      "unit": "percent",
+      "source": "NBE"
+    },
+    "coldChainCapacity": {
+      "value": 280000,
+      "unit": "m³",
+      "gapPercent": 85,
+      "source": "MoA Logistics Strategy"
+    },
+    "dryPorts": [
+      "Modjo",
+      "Semera",
+      "Dire Dawa",
+      "Wereta"
+    ],
+    "inlandContainerDepots": {
+      "value": 4,
+      "source": "Ethiopian Shipping & Logistics"
+    },
+    "electricityAccessRural": {
+      "value": 54,
+      "unit": "percent",
+      "source": "World Bank 2024"
+    },
+    "digitalAgPlatform": {
+      "description": "DAP: 3,500 extension workers, 2.8M farmers",
+      "source": "MoA Digital Agriculture 2025"
+    },
+    "postHarvestLoss": {
+      "value": 30,
+      "unit": "percent",
+      "description": "Fruits & vegetables",
+      "source": "MoA Horticulture 2024"
+    }
+  },
+  "certifications": {
+    "organicCertifiedLand": {
+      "value": 75000,
+      "unit": "hectares",
+      "source": "ECA / IFOAM 2024"
+    },
+    "fairtradeCertifiedCooperatives": {
+      "value": 230,
+      "source": "Fairtrade Africa 2024"
+    },
+    "globalGAPCertified": {
+      "value": 14,
+      "description": "Cooperatives",
+      "source": "GlobalGAP / MoA 2025"
+    },
+    "ISO22000Plants": {
+      "value": 23,
+      "description": "Agro-processing plants",
+      "source": "ESA 2025"
+    },
+    "rainforestAlliance": {
+      "value": 45,
+      "description": "Coffee cooperatives",
+      "source": "RA / MoA 2024"
+    },
+    "eudrReadiness": {
+      "value": "Critical — plot-level geolocation required for EU market access",
+      "source": "USDA FAS Coffee Annual 2025 / EUDR 2023"
+    }
+  },
+  "foodSecurity": {
+    "populationFoodInsecure": {
+      "value": 15400000,
+      "unit": "people",
+      "description": "IPC Phase 3+ (2025 projection)",
+      "source": "FEWS NET / WFP 2025"
+    },
+    "globalHungerIndex2024": {
+      "value": 25.3,
+      "classification": "Serious",
+      "source": "GHI 2024"
+    },
+    "stuntingPrevalence": {
+      "value": 37,
+      "unit": "percent children <5",
+      "source": "DHS 2019/20"
+    },
+    "wastingPrevalence": {
+      "value": 7,
+      "unit": "percent children <5",
+      "source": "DHS 2019/20"
+    },
+    "undernourishment": {
+      "value": 16,
+      "unit": "percent population",
+      "source": "FAO SOFI 2024"
+    },
+    "cerealImportDependency": {
+      "value": 12,
+      "unit": "percent of supply",
+      "source": "USDA FAS / CSA"
+    },
+    "strategicReserve": {
+      "value": 500000,
+      "unit": "tonnes",
+      "source": "EFSRA 2024"
+    }
+  },
+  "climate": {
+    "rainfallRegimes": [
+      {
+        "regime": "Meher (main rainy season)",
+        "months": "June–September",
+        "region": "Most of country",
+        "shareAnnualRainfall": 65
+      },
+      {
+        "regime": "Belg (short rainy season)",
+        "months": "February–May",
+        "region": "Central & Southern",
+        "shareAnnualRainfall": 25
+      },
+      {
+        "regime": "Bega (dry season)",
+        "months": "October–January",
+        "region": "Most of country",
+        "shareAnnualRainfall": 10
+      }
+    ],
+    "annualRainfallRange": {
+      "min": 200,
+      "max": 2000,
+      "unit": "mm",
+      "source": "NMA 2024"
+    },
+    "temperatureRange": {
+      "min": 15,
+      "max": 35,
+      "unit": "°C",
+      "source": "NMA"
+    },
+    "droughtFrequency": {
+      "description": "Major drought events every 3–5 years",
+      "source": "FEWS NET / NMA"
+    }
+  },
+  "regionalProduction": {
+    "regions": [
+      {
+        "region": "Oromia",
+        "cropShare": 45,
+        "coffeeShare": 59,
+        "livestockShare": 35,
+        "mainCrops": [
+          "Coffee",
+          "Maize",
+          "Teff",
+          "Wheat"
+        ],
+        "source": "CSA AgSS 2022"
+      },
+      {
+        "region": "Amhara",
+        "cropShare": 25,
+        "coffeeShare": 0,
+        "livestockShare": 25,
+        "mainCrops": [
+          "Teff",
+          "Barley",
+          "Wheat",
+          "Millet"
+        ],
+        "source": "CSA"
+      },
+      {
+        "region": "SNNPR",
+        "cropShare": 12,
+        "coffeeShare": 0,
+        "livestockShare": 12,
+        "mainCrops": [
+          "Enset",
+          "Coffee",
+          "Maize",
+          "Fruits"
+        ],
+        "source": "CSA"
+      },
+      {
+        "region": "Sidama",
+        "cropShare": 3,
+        "coffeeShare": 13,
+        "livestockShare": 3,
+        "mainCrops": [
+          "Coffee",
+          "Enset",
+          "Maize"
+        ],
+        "source": "CSA / USDA FAS"
+      },
+      {
+        "region": "South-West Ethiopia",
+        "cropShare": 3,
+        "coffeeShare": 13,
+        "livestockShare": 3,
+        "mainCrops": [
+          "Coffee",
+          "Maize",
+          "Fruits"
+        ],
+        "source": "CSA / USDA FAS"
+      },
+      {
+        "region": "Tigray",
+        "cropShare": 6,
+        "coffeeShare": 0,
+        "livestockShare": 8,
+        "mainCrops": [
+          "Barley",
+          "Wheat",
+          "Sorghum"
+        ],
+        "source": "CSA"
+      },
+      {
+        "region": "Somali",
+        "cropShare": 1,
+        "coffeeShare": 0,
+        "livestockShare": 10,
+        "mainCrops": [
+          "Sorghum",
+          "Livestock"
+        ],
+        "source": "CSA"
+      },
+      {
+        "region": "Afar",
+        "cropShare": 0,
+        "coffeeShare": 0,
+        "livestockShare": 4,
+        "mainCrops": [
+          "Livestock",
+          "Cotton"
+        ],
+        "source": "CSA"
+      }
+    ]
+  },
+  "rankings": [
+    {
+      "metric": "Arabica coffee production",
+      "position": 1,
+      "scope": "Africa",
+      "source": "USDA FAS / ICO"
+    },
+    {
+      "metric": "Arabica coffee production",
+      "position": 5,
+      "scope": "World",
+      "source": "USDA FAS / ICO"
+    },
+    {
+      "metric": "Honey production",
+      "position": 1,
+      "scope": "Africa",
+      "source": "FAO"
+    },
+    {
+      "metric": "Livestock population",
+      "position": 1,
+      "scope": "Africa",
+      "source": "FAO / PSI 2023"
+    },
+    {
+      "metric": "Livestock population",
+      "position": 5,
+      "scope": "World",
+      "source": "FAO"
+    },
+    {
+      "metric": "Teff production",
+      "position": 1,
+      "scope": "World",
+      "source": "FAO"
+    },
+    {
+      "metric": "Sesame production",
+      "position": 2,
+      "scope": "Africa",
+      "source": "FAO"
+    },
+    {
+      "metric": "Arable land area",
+      "position": 5,
+      "scope": "Africa",
+      "source": "World Bank"
+    },
+    {
+      "metric": "Coffee export growth (YoY 2025)",
+      "position": 1,
+      "scope": "East Africa",
+      "source": "NBE"
+    }
+  ],
+  "computed": {},
+  "exports": {
+    "totalAgriExports": {
+      "2023": 7800000000,
+      "2024": 8300000000,
+      "2025": 4550000000
+    },
+    "coffee": {
+      "2023": 2400000000,
+      "2024": 2700000000,
+      "2025": 3100000000
+    },
+    "gold": {
+      "2023": 900000000,
+      "2024": 1050000000,
+      "2025": 1200000000
+    },
+    "sesame": {
+      "2023": 480000000,
+      "2024": 520000000,
+      "2025": 600000000
+    },
+    "cut_flowers": {
+      "2023": 380000000,
+      "2024": 430000000,
+      "2025": 500000000
+    },
+    "pulses": {
+      "2023": 320000000,
+      "2024": 350000000,
+      "2025": 400000000
+    },
+    "livestock_meat": {
+      "2023": 250000000,
+      "2024": 280000000,
+      "2025": 350000000
+    },
+    "vegetables_fruits": {
+      "2023": 120000000,
+      "2024": 150000000,
+      "2025": 200000000
+    },
+    "teff_grain": {
+      "2023": 80000000,
+      "2024": 95000000,
+      "2025": 110000000
+    },
+    "spices": {
+      "2023": 90000000,
+      "2024": 105000000,
+      "2025": 120000000
+    },
+    "honey": {
+      "2023": 18000000,
+      "2024": 22000000,
+      "2025": 30000000
+    }
+  },
+  "economic": {
+    "gdpShare": {
+      "label": "Agriculture share of GDP",
+      "value": 35.0,
+      "unit": "percent",
+      "source": "World Bank / EEA 2025"
+    },
+    "employmentShare": {
+      "label": "Labour force in agriculture",
+      "value": 67,
+      "unit": "percent"
+    },
+    "gdp2025": {
+      "label": "GDP 2025 (est.)",
+      "value": 145,
+      "unit": "billion USD"
+    },
+    "agriGDP2025": {
+      "label": "Agricultural GDP 2025",
+      "value": 50.0,
+      "unit": "billion USD"
+    },
+    "fdiAgri2025": {
+      "label": "FDI in agri-processing",
+      "value": 420000000,
+      "unit": "USD"
+    }
+  },
+  "landUse": {
+    "totalArea": {
+      "value": 1104300,
+      "unit": "km²",
+      "source": "CSA"
+    },
+    "arableLand": {
+      "value": 74000000,
+      "unit": "hectares",
+      "source": "World Bank / MoA"
+    },
+    "cultivatedLand": {
+      "value": 14800000,
+      "unit": "hectares",
+      "source": "MoA 2025/26"
+    },
+    "cultivatedShare": {
+      "value": 20,
+      "unit": "percent",
+      "source": "MoA"
+    },
+    "irrigatedLand": {
+      "value": 1200000,
+      "trend": "197% of Malabo target (2022)",
+      "unit": "hectares",
+      "source": "CAADP BR4 2025"
+    },
+    "irrigationPotential": {
+      "value": 5000000,
+      "unit": "hectares",
+      "source": "MoA / AfDB"
+    },
+    "forestCover": {
+      "value": 15600000,
+      "unit": "hectares",
+      "source": "FAO"
+    },
+    "forestDeclineRate": {
+      "value": 0.8,
+      "unit": "percent per year",
+      "source": "FAO"
+    },
+    "landUnderSLM": {
+      "value": 34,
+      "trend": "Target 30%, exceeded",
+      "unit": "percent",
+      "source": "CAADP BR4 2025"
+    },
+    "agroEcologicalZones": [
+      {
+        "zone": "Highlands (Dega)",
+        "elevation": ">2500m",
+        "share": 10,
+        "description": "Temperate, cereals & livestock"
+      },
+      {
+        "zone": "Mid-Highlands (Weyna Dega)",
+        "elevation": "1500–2500m",
+        "share": 40,
+        "description": "Coffee, teff, maize, wheat, enset"
+      },
+      {
+        "zone": "Lowlands (Kolla)",
+        "elevation": "500–1500m",
+        "share": 30,
+        "description": "Sorghum, sesame, cotton, livestock"
+      },
+      {
+        "zone": "Arid Lowlands (Berha)",
+        "elevation": "<500m",
+        "share": 20,
+        "description": "Pastoral, camel, goats"
+      }
+    ]
+  },
+  "coffeeDetails": {
+    "producingRegions": [
+      {
+        "region": "Oromia",
+        "share": 59,
+        "source": "USDA FAS Coffee Annual 2025"
+      },
+      {
+        "region": "Sidama",
+        "share": 13,
+        "source": "USDA FAS"
+      },
+      {
+        "region": "South-West Ethiopia",
+        "share": 13,
+        "source": "USDA FAS"
+      },
+      {
+        "region": "South Ethiopia",
+        "share": 8,
+        "source": "USDA FAS"
+      },
+      {
+        "region": "Central Ethiopia",
+        "share": 4,
+        "source": "USDA FAS"
+      },
+      {
+        "region": "Other",
+        "share": 3,
+        "source": "USDA FAS"
+      }
+    ],
+    "exportDestinations": [
+      {
+        "country": "Germany",
+        "share": 18,
+        "source": "ECTA / UN Comtrade 2024"
+      },
+      {
+        "country": "Saudi Arabia",
+        "share": 15,
+        "source": "ECTA"
+      },
+      {
+        "country": "USA",
+        "share": 12,
+        "source": "ECTA"
+      },
+      {
+        "country": "China",
+        "share": 10,
+        "source": "ECTA"
+      },
+      {
+        "country": "Japan",
+        "share": 8,
+        "source": "ECTA"
+      },
+      {
+        "country": "Belgium",
+        "share": 7,
+        "source": "ECTA"
+      },
+      {
+        "country": "Italy",
+        "share": 5,
+        "source": "ECTA"
+      },
+      {
+        "country": "France",
+        "share": 4,
+        "source": "ECTA"
+      },
+      {
+        "country": "Other",
+        "share": 21,
+        "source": "ECTA"
+      }
+    ],
+    "varietalCount": "6000–10000",
+    "geneticShare": 95
+  },
+  "production": [
+    {
+      "crop": "Coffee (green)",
+      "year2024": 638000,
+      "year2025": 694000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Maize (Corn)",
+      "year2024": 10200000,
+      "year2025": 10300000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Teff",
+      "year2024": 5700000,
+      "year2025": 6200000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Wheat",
+      "year2024": 6200000,
+      "year2025": 6500000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Sorghum",
+      "year2024": 4100000,
+      "year2025": 3900000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Barley",
+      "year2024": 2300000,
+      "year2025": 2400000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Millet",
+      "year2024": 1130000,
+      "year2025": 1180000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Sesame",
+      "year2024": 380000,
+      "year2025": 410000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Soybean",
+      "year2024": 250000,
+      "year2025": 260000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Rapeseed",
+      "year2024": 45000,
+      "year2025": 45000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Sugar Cane",
+      "year2024": 440000,
+      "year2025": 440000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Cotton (lint)",
+      "year2024": 39000,
+      "year2025": 39000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Honey",
+      "year2024": 62000,
+      "year2025": 65000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Avocado",
+      "year2024": 38000,
+      "year2025": 45000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Rice (paddy)",
+      "year2024": 140000,
+      "year2025": 140000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Pulses (total)",
+      "year2024": 2600000,
+      "year2025": 2800000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Root Crops (enset, potato)",
+      "year2024": 4000000,
+      "year2025": 4200000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Spices (total)",
+      "year2024": 320000,
+      "year2025": 350000,
+      "unit": "tonnes"
+    },
+    {
+      "crop": "Horticulture (total)",
+      "year2024": 1226000,
+      "year2025": 3400000,
+      "unit": "tonnes"
+    }
+  ]
+}
