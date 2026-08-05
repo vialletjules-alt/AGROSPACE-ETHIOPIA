@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "npx serve .",
+    "dev:admin": "cd admin-app && npm install && npm run dev",
+    "build:admin": "cd admin-app && npm install && npm run build",
     "server": "node server.js",
     "start": "node server.js"
   },

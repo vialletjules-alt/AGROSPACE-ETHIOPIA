@@ -40,16 +40,17 @@ app.post('/api/auth/login', (req, res) => {
 
 app.get('/api/auth/check', requireAdmin, (req, res) => res.json({ success: true }));
 
-/* ── Serve admin dashboard (built React app) ── */
+/* Serve admin dashboard (built React app) */
 const ADMIN_DIST = path.join(__dirname, 'admin-dist');
 if (fs.existsSync(ADMIN_DIST)) {
   app.use('/admin', express.static(ADMIN_DIST));
+  app.get('/admin', (req, res) => res.redirect('/admin/'));
   app.get('/admin/*', (req, res) => res.sendFile(path.join(ADMIN_DIST, 'index.html')));
 } else {
   app.get('/admin', (req, res) => res.status(503).send('Admin build not found. Run `npm run build:admin`.'));
 }
 
-/* Agri-Data Pipeline */
+/* ── Agri-Data Pipeline */
 const agriDataPipeline = require('./agri-data-pipeline');
 app.use('/api', agriDataPipeline.createRouter(express));
 
