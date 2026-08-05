@@ -1,0 +1,38 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Kafa_Projet
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install root dependencies
+        run: npm ci
+
+      - name: Build admin app
+        run: |
+          cd admin-app
+          npm install
+          npm run build
+
+      - name: Deploy to Render
+        uses: akhileshns/render-deploy@v1.0
+        with:
+          api-key: ${{ secrets.RENDER_API_KEY }}
+          service-id: ${{ secrets.RENDER_SERVICE_ID }}
+          wait-for-confirmation: true
+        env:
+          RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
