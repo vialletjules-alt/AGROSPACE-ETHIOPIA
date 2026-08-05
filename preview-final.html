@@ -2073,7 +2073,9 @@ function fetchAndRenderPrices(tbodyId, updatedId) {
     })
     .catch(function(err){
       // Fallback: load prices from local agri-data.json (for static hosting like GitHub Pages)
-      fetch('agri-data.json')
+      var dataPath = window.location.pathname.includes('/preview-final.html') ?
+        'agri-data.json' : '../agri-data.json';
+      fetch(dataPath)
         .then(function(r){ return r.json(); })
         .then(function(data){
           var fallbackPrices = [];
