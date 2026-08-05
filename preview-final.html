@@ -2105,11 +2105,14 @@ function fetchAndRenderPrices(tbodyId, updatedId) {
               };
             });
           }
-          if(data.macroEconomy && data.macroEconomy.inflation && data.macroEconomy.inflation.exchangeRate2025) {
-            var fxEl = document.getElementById('ebFx');
-            if(fxEl) {
-              fxEl.innerHTML = 'NBE ' + data.macroEconomy.inflation.exchangeRate2025.value.toFixed(2) + ' ETB/USD';
+          // FX rate display
+          var fxEl = document.getElementById('ebFx');
+          if(fxEl) {
+            var fxVal = 95;
+            if(data && data.macroEconomy && data.macroEconomy.inflation && data.macroEconomy.inflation.exchangeRate2025 && typeof data.macroEconomy.inflation.exchangeRate2025.value !== 'undefined') {
+              fxVal = data.macroEconomy.inflation.exchangeRate2025.value;
             }
+            fxEl.innerHTML = 'NBE ' + fxVal.toFixed(2) + ' ETB/USD';
           }
           var updatedEl = document.getElementById(updatedId);
           if(updatedEl) {
@@ -2144,12 +2147,13 @@ function fetchAndRenderPrices(tbodyId, updatedId) {
             drawSparklineFallback(filtered[i].slug, tbodyId);
           }
         })
-        .catch(function(){
+        .catch(function(err2){
+          console.error('Fallback fetch error:', err2);
           var tbody = document.getElementById(tbodyId);
           if(tbody) tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;padding:24px;color:#6B6B6B;font-size:12px">Price data temporarily unavailable. Retrying...</td></tr>';
         });
     });
-}
+  }
 
 function drawSparklineFallback(slug, tbodyId){
   var svg = document.getElementById('spk-' + slug + '-' + tbodyId);
@@ -3039,3 +3043,4 @@ function initLenis() {
 </body>
 </html>
 <!-- Cache bust Mer  5 aoû 2026 12:24:08 EAT -->
+<!-- Cache bust 1785921981 -->
