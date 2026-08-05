@@ -2073,9 +2073,7 @@ function fetchAndRenderPrices(tbodyId, updatedId) {
     })
     .catch(function(err){
       // Fallback: load prices from local agri-data.json (for static hosting like GitHub Pages)
-      var dataPath = window.location.pathname.includes('/preview-final.html') ?
-        'agri-data.json' : '../agri-data.json';
-      fetch(dataPath)
+      fetch('agri-data.json')
         .then(function(r){ return r.json(); })
         .then(function(data){
           var fallbackPrices = [];
@@ -3040,3 +3038,4 @@ function initLenis() {
 </script>
 </body>
 </html>
+<!-- Cache bust Mer  5 aoû 2026 12:24:08 EAT -->
