@@ -17,7 +17,8 @@
     "stitch-mcp-server": "^1.0.7",
     "three": "^0.185.1"
   },
-  "description": "",
+  "description": "AgroSpace Ethiopia - Agricultural market intelligence platform",
+  "homepage": "https://vialletjules-alt.github.io/AGROSPACE-ETHIOPIA",
   "main": "server.js",
   "directories": {
     "test": "test"
